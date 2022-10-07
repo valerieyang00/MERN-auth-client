@@ -35,7 +35,7 @@ export default function Profile({ currentUser, handleLogout }) {
 			}
 		}
 		fetchData()
-	})
+	},[])
 	return (
 		<div>
 			<h1>Hello, {currentUser.name}</h1>
